@@ -11,7 +11,7 @@
     define("password","135790.Sa");
  
 if($_POST["k_adi"]==username and $_POST["sifre"]==password)
-   echo "Giriş izni verildi. Hoşgeldiniz.";
+   echo "Giriş izni verildi. Hoşgeldiniz yeni kullanıcı.";
 else{
    echo "Kullanıcı adını yada şifreyi yanlış girdiniz. Tekrar deneyiniz!<br>";
    echo "<a href='index1.php'>Geri</a>";
